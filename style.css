@@ -2,18 +2,19 @@
 #636500
 #b29b27
 #ffb400
+#da9335
 #ff6333
 #be1e1c
 */
 
 
 :root{
-    --color-dark: #636500;
-    --color-medium: #b29b27; /* 2D3954 */
-    --color-light: #ffb400;
-    --color-light1: #b8ac73;
-    --color-light2: #ff6333;
-    --color-gray:#be1e1c;
+    --color-dark: #c6cbd1;
+    --color-medium: #a6a2a1; /* 2D3954 */
+    --color-light: #41384e;
+    --color-light1: #725a7a;
+    --color-light2: #725a7a;
+    --color-gray:#1f1a27;
 }
 
 
@@ -155,7 +156,7 @@ h3, h4, h5, h6{
 
 .overlay-bg{
     background-color: var(--color-dark);
-    opacity: .6;
+    opacity: .5;
     z-index: 2;
 }
 .item .container{
@@ -172,13 +173,13 @@ h3, h4, h5, h6{
     text-align: center;
 }
 .caption-heading{
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 700;
     padding: 0;
     color: var(--color-light2);
     line-height: 1;
     margin: 10px 0 30px;
-    text-shadow: 0 0 15px #2b2b2b;
+    text-shadow: 0 0 15px #cec0c0;
 }
 
 /* carousel nav */
