@@ -11,6 +11,7 @@
     --color-dark: #636500;
     --color-medium: #b29b27; /* 2D3954 */
     --color-light: #ffb400;
+    --color-light1: #b8ac73;
     --color-light2: #ff6333;
     --color-gray:#be1e1c;
 }
@@ -54,7 +55,7 @@ a{
 
 h1, h2{
     font-weight: 700;
-    color:var(--color-dark);
+    color:var(--color-light1);
 }
 h3, h4, h5, h6{
     font-weight: 500;
