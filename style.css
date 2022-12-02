@@ -8,22 +8,21 @@
 
 
 :root{
-    --color-dark: #1b2132;
-    --color-medium: #252c41; /* 2D3954 */
-    --color-light: #0fca98;
-    --color-light2: #fff;
-    --color-gray:#a0a0a0;
+    --color-dark: #636500;
+    --color-medium: #b29b27; /* 2D3954 */
+    --color-light: #ffb400;
+    --color-light2: #ff6333;
+    --color-gray:#be1e1c;
 }
 
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
-
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 /* GENERAL */
 *{
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
 a{
@@ -50,6 +49,8 @@ a{
     transform:translate(-50%,-50%);
     width: 100%;
 }
+
+
 
 h1, h2{
     font-weight: 700;
