@@ -22,6 +22,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 /* GENERAL */
 *{
+    background-color: #c6cbd12f;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
@@ -253,7 +254,7 @@ h3, h4, h5, h6{
     background-position: center center;
 }
 .box-image .shadow{
-    background-color:#000;
+    background-color:rgba(0, 0, 0, 0.653);
     opacity: .8;
 }
 .box-image .desc{
