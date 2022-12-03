@@ -29,6 +29,7 @@
     font-weight: 300;
 }
 a{
+    font-size: larger;
     text-decoration: none!important;
 }
 .transition{ /* transition for diferents class */
@@ -53,6 +54,10 @@ a{
     width: 100%;
 }
 
+p {
+    font-size: larger;
+    color: var(--color-light);
+}
 
 
 h1, h2{
@@ -61,7 +66,7 @@ h1, h2{
 }
 h3, h4, h5, h6{
     font-weight: 500;
-    color:var(--color-dark);
+    color:var(--color-light2);
 }
 .content-right{
     text-align: right;
@@ -89,8 +94,8 @@ h3, h4, h5, h6{
 /* ALL SECTIONS */
 .section-title{
     font-weight: 700;
-    margin-bottom: 50px;
-    font-size: 2em;
+    margin-bottom: 60px;
+    font-size: 2.3em;
     position:relative;
     text-align: center;
     z-index: 2;
@@ -221,16 +226,16 @@ h3, h4, h5, h6{
     position: relative;
 }
 .about-content li h4{
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 .about-content li p{
-    font-size: .8em;
+    font-size: 1em;
 }
 .about-content li i {
     position: absolute;
     font-size: 2em;
-    color:var(--color-light);
+    color:var(--color-light1);
 }
 
 .about-content li h4,
