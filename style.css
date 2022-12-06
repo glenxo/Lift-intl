@@ -563,7 +563,7 @@ section {
 
 .blogs .box-container .box {
   border-radius: 1rem;
-  background: #222;
+  background: var(--color-dark);
   overflow: hidden;
 }
 
