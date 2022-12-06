@@ -1,39 +1,27 @@
-$(document).ready(function(){
+let menu = document.querySelector('#menu-bars');
+let navbar = document.querySelector('.navbar');
 
-	"use strict";
-	
-    // CAROUSEL BANNER
-    $(".carousel-sliders").owlCarousel({
-		animateOut: 'fadeOut',
-    	animateIn: 'flipInX',
-	    loop: true,
-	    autoplay: true,
-        autoplayTimeout: 5000,
-	    nav: true,
-	    dots: false,
-	    navContainer: '.banner .custom-nav',
-	    items: 1,
-	});
 
-	// CAROUSEL TESTIMONIALS
-	$(".carousel-testimonials").owlCarousel({
-		loop:true,
-		margin:10,
-		nav:true,
-		items: 1
-	});
-});
+menu.onclick = () =>{
+  menu.classList.toggle('fa-times');
+  navbar.classList.toggle('active');
+  searchIcon.classList.remove('fa-times');
+  searchForm.classList.remove('active');
+}
 
-window.onscroll = function() {toggleMenu()};
+let searchIcon = document.querySelector('#search-icon');
+let searchForm = document.querySelector('.search-form');
 
-var navbar = document.getElementById("navbar");
+searchIcon.onclick = () =>{
+  searchIcon.classList.toggle('fa-times');
+  searchForm.classList.toggle('active');
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
+}
 
-var sticky = navbar.offsetTop + navbar.offsetHeight;
-
-function toggleMenu() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("fixed")
-  } else {
-    navbar.classList.remove("fixed");
-  }
+window.onscroll = () =>{
+  menu.classList.remove('fa-times');
+  navbar.classList.remove('active');
+  searchIcon.classList.remove('fa-times');
+  searchForm.classList.remove('active');
 }
