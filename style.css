@@ -18,8 +18,8 @@
     --color-dark: #1c0e01;
     --color-medium: #1c0e01; /* 2D3954 */
     --color-light: #f9e4ca;
-    --color-light1: #f9e4ca;
-    --color-light2: #f9e4ca;
+    --color-light1: #bba58a;
+    --color-light2: #cd8a39;
     --color-gray:#636500;
     --color-red:#b83d02;
 
@@ -62,8 +62,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-    bg
-    background-image: url(/assets/pexels-yasin-gündogdu-2644734.jpg);
+    background-image: url();
     overflow-x: hidden;
 }
 
@@ -87,7 +86,7 @@ section {
 
 .heading h1 {
   font-size: 6rem;
-  color: var(--color-medium);
+  color: var(--color-light1);
 }
 
 .btn {
@@ -189,14 +188,14 @@ section {
 .home .content span {
   font-weight: bolder;
   color: transparent;
-  -webkit-text-stroke: 0.1rem var(--color-light2);
+  -webkit-text-stroke: 0.1rem var(--color-light);
   font-size: 4vw;
   display: block;
 }
 
 .home .content h3 {
   font-size: 6vw;
-  color: var(--color-light2);
+  color: var(--color-light);
 }
 
 .home .content p {
@@ -591,7 +590,7 @@ section {
 
 .blogs .box-container .box .content .link {
   font-size: 2rem;
-  color: var(--color-light1);
+  color: var(--color-light);
 }
 
 .blogs .box-container .box .content .link:hover {
@@ -601,7 +600,7 @@ section {
 .blogs .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: var(--color-light2);
+  color: var(--color-light1);
   line-height: 2;
 }
 
@@ -620,7 +619,7 @@ section {
 
 .blogs .box-container .box .content .icon a {
   font-size: 1.4rem;
-  color: var(--color-light2);
+  color: var(--color-light);
 }
 
 .blogs .box-container .box .content .icon a:hover {
