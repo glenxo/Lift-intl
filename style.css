@@ -10,12 +10,14 @@
 
 :root{
     -o-transition-delay: 0ms;
-    --color-dark: #c6cbd1;
-    --color-medium: #a6a2a1; /* 2D3954 */
-    --color-light: #41384e;
-    --color-light1: #725a7a;
-    --color-light2: #725a7a;
-    --color-gray:#1f1a27;
+    --color-dark: #1f1a27;
+    --color-medium: #b29b27; /* 2D3954 */
+    --color-light: #ffb400;
+    --color-light1: #da9335;
+    --color-light2: #ff6333;
+    --color-gray:#636500;
+    --color-red:#be1e1c;
+
 }
 
 /*pallete
@@ -54,11 +56,11 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-track {
-  background: #05020a;
+  background: var(--color-light1);
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #df5708;
+  background: var(--color-medium);
   border-radius: 5rem;
 }
 
@@ -82,13 +84,13 @@ section {
 }
 
 .heading span {
-  color: #c0bfc2;
+  color: var(--color-medium);
   font-size: 2rem;
 }
 
 .heading h1 {
   font-size: 6rem;
-  color: #c0bfc2;
+  color: var(--color-medium);
 }
 
 .btn {
@@ -96,16 +98,16 @@ section {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.7rem;
-  color: #c0bfc2;
-  border: 0.2rem solid #ff0028;
+  color: var(--color-light);
+  border: var(--color-light2);
   border-radius: 5rem;
   cursor: pointer;
   background: none;
 }
 
 .btn:hover {
-  background: #df5708;
-  color: #111;
+  background: var(--color-light2);
+  color: var(--color-light3);
 }
 
 .header {
@@ -114,7 +116,7 @@ section {
   left: 0;
   right: 0;
   z-index: 1000;
-  background: #222;
+  background: var(--color-medium);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,13 +131,13 @@ section {
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: #aaa;
+  color: var(--color-light);
   display: inline-block;
   margin: 0 1rem;
 }
 
 .header .navbar a:hover {
-  color: #ff0028;
+  color: var(--color-light);
 }
 
 .header .btn {
@@ -144,18 +146,18 @@ section {
 
 .logo {
   font-size: 2.7rem;
-  color: #c0bfc2;
+  color: var(--color-light);
   font-weight: bolder;
 }
 
 .logo i {
-  color: #ff0028;
+  color: var(--color-light);
   padding-right: .5rem;
 }
 
 #menu-btn {
   font-size: 2.5rem;
-  color: #fff;
+  color: var(--color-light);
   cursor: pointer;
   display: none;
 }
@@ -165,8 +167,8 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://wallpapercave.com/wp/wp6089826.jpg) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
   background-size: cover;
   background-position: center;
   display: -webkit-box;
