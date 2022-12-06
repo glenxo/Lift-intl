@@ -1,5 +1,5 @@
 /*color pallet
-#636500
+#a24502
 #b29b27
 #ffb400
 #da9335
@@ -20,14 +20,6 @@
 
 }
 
-/*pallete
-#c0bfc2 -gray
-#1e1c23 -dusty
-#ffff -plain white
-#ff0028 -amberish
-#df5708 -orangerish
-#05020a -dark
-*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
 * {
   font-family: 'Poppins', sans-serif;
@@ -206,7 +198,7 @@ section {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
-  color: #aaa;
+  color: var(--color-light);
   line-height: 2;
 }
 
@@ -250,7 +242,7 @@ section {
   border-radius: 5rem;
   border: 0.2rem solid #df5708;
   font-size: 1.6rem;
-  color: #aaa;
+  color: var(--color-light);
   text-transform: none;
   background: none;
   margin-top: 1rem;
