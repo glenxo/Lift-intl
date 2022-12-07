@@ -62,19 +62,19 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.473)), to(rgba(17, 17, 17, 0.7))), url(assets/costa\ rica.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.452)), url(assets/costa\ rica.jpg) no-repeat;
+  background-image: url(assets/costa\ rica.jpg);
   background-position: top center;
-  background-attachment:scroll;
   scroll-behavior: smooth;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h1 {
-  margin-top:100px;
-  margin-bottom: 100px;
-  font-size: xx-large;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 a { 
