@@ -3,7 +3,7 @@
 #cd8a39
 #595d2b
 #1d2a10
-#1c0e01
+#222
 -@-@-@-
 #f9e4ca
 #96450d
@@ -16,7 +16,7 @@
 :root{
     -o-transition-delay: 0ms;
     --color-dark: #1c0e01;
-    --color-medium: #1c0e01; /* 2D3954 */
+    --color-medium: rgb(32, 32, 32); /* 2D3954 */
     --color-light: #f9e4ca;
     --color-light1: #bba58a;
     --color-light2: #cd8a39;
@@ -515,6 +515,7 @@ section {
   border: 0.2rem solid #111;
 }
 
+
 .review .box-container .box:hover {
   border: 0.2rem solid var(--color-red);
 }
@@ -562,7 +563,7 @@ section {
 
 .blogs .box-container .box {
   border-radius: 1rem;
-  background: var(--color-dark);
+  background: var(--color-medium);
   overflow: hidden;
 }
 
@@ -590,7 +591,7 @@ section {
 
 .blogs .box-container .box .content .link {
   font-size: 2rem;
-  color: var(--color-light);
+  color: var(--color-light1);
 }
 
 .blogs .box-container .box .content .link:hover {
@@ -600,7 +601,7 @@ section {
 .blogs .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
-  color: var(--color-light1);
+  color: var(--color-light2);
   line-height: 2;
 }
 
@@ -619,7 +620,7 @@ section {
 
 .blogs .box-container .box .content .icon a {
   font-size: 1.4rem;
-  color: var(--color-light);
+  color: var(--color-light1);
 }
 
 .blogs .box-container .box .content .icon a:hover {
