@@ -68,7 +68,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height:400px;    
+  min-height:400px;   
 }
 
 h1 {
@@ -137,7 +137,7 @@ section {
 
 .header .navbar a {
   font-size: 1.7rem;
-  color: var(--color-light);
+  color: var(--color-light1);
   display: inline-block;
   margin: 0 1rem;
 }
@@ -148,6 +148,7 @@ section {
 
 .header .btn {
   margin-top: 0;
+  
 }
 
 .logo {
@@ -197,15 +198,17 @@ section {
 
 .home .content span {
   font-weight: bolder;
-  color: transparent;
-  -webkit-text-stroke: 0.1rem var(--color-light);
+  color: #dad0b746;
+  -webkit-text-stroke: 0.1rem var(--color-light1);
   font-size: 4vw;
   display: block;
 }
 
 .home .content h3 {
   font-size: 6vw;
-  color: var(--color-light);
+  color: #dad0b7a6;
+  -webkit-text-stroke: 0.1rem var(--color-light2);
+
 }
 
 .home .content p {
@@ -219,7 +222,7 @@ section {
 .book-form {
   width: 80%;
   margin: 1rem auto;
-  margin-top: -5rem;
+  margin-top: 0rem;
   background: #222;
   border-radius: 1rem;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);

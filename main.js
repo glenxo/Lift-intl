@@ -1,7 +1,7 @@
 (function(){
 
   var parallax = document.querySelectorAll("body"),
-      speed = 0.8;
+      speed = 0.5;
 
   window.onscroll = function(){
     [].slice.call(parallax).forEach(function(el,i){
