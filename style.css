@@ -206,7 +206,7 @@ section {
 
 .home .content span {
   font-weight: bolder;
-  color: #4b473d93;
+  color: #a18e5e93;
   -webkit-text-stroke: 0.1rem var(--color-light1);
   font-size: 4vw;
   display: block;
@@ -214,7 +214,7 @@ section {
 
 .home .content h3 {
   font-size: 6vw;
-  color: #363022a6;
+  color: #776334a6;
   -webkit-text-stroke: 0.1rem var(--color-light2);
 
 }
