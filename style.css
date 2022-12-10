@@ -820,6 +820,12 @@ section {
   .home {
     margin-top: 10rem;
   }
+
+  #myVideo {
+    min-width: 50%; 
+    min-height: 50%;
+  }
+
   .home .content span {
     font-size: 8vw;
   }
