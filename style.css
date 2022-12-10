@@ -62,13 +62,21 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url(assets/bg2.jpg);
+  background-image: url(assets.jpg);
   background-position: bottom;
   scroll-behavior: smooth;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   min-height:400px;   
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 h1 {
