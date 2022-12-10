@@ -72,7 +72,7 @@ body {
 }
 
 #myVideo {
-  position: fixed;
+  position: absolute;
   right: 0;
   bottom: 0;
   min-width: 100%; 
@@ -182,8 +182,8 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
-  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat;*/
+ /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
   background-size: cover;
   background-position: center;
   display: -webkit-box;
