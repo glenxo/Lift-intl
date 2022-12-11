@@ -62,8 +62,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background-image: url(assets/texture.jpg);
-  background-position: top;
+  background-image: linear-gradient(to right, #584023d2 , rgba(218, 166, 87, 0.466) , #583b2cc5);  
+  background-position: center;  
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -181,7 +181,7 @@ section {
   margin-top: 9rem;
   width: 90%;
   border-radius: 1rem;
- /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url() no-repeat;*/
   background-size: cover;
   background-position: center;
@@ -213,7 +213,7 @@ section {
 
 .home .content h3 {
   font-size: 6vw;
-  color: #776334f6;
+  color: var(--color-light1);
   -webkit-text-stroke: 0.1rem var(--color-light2);
 
 }
@@ -654,11 +654,12 @@ section {
 }
 
 .banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(../images/banner-bg.jpg) no-repeat;
-  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/banner-bg.jpg) no-repeat;
-  background-size: cover;
+  background-image: url(assets/bg1.jpg);
+  /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(assets/bg1.jpg) no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(assets/bg1.jpg) no-repeat;*/
+    background-size: cover;
   background-position: center;
-  padding: 3rem 2rem;
+  padding: 4rem 3rem;
   background-attachment: fixed;
   text-align: center;
 }
