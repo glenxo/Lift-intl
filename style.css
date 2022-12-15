@@ -85,9 +85,9 @@ section {
   padding: 3rem 9%;
 }
 
-header {
+/*header {
   background-color: var(--color-medium);
-}
+}*/
 
 li {
   list-style: none;
