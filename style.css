@@ -597,7 +597,7 @@ li {
   font-size: 1.5rem;
 }
 
-.blogs .box-container {
+.inventory .box-container {
   /*background-image: url(assets/london.jpg);*/
   display: -ms-grid;
   display: grid;
@@ -606,52 +606,54 @@ li {
   gap: 1.5rem;
 }
 
-.blogs .box-container .box {
+.inventory .box-container .box {
   border-radius: 1rem;
   background: var(--color-medium);
   overflow: hidden;
+  border: 0.2rem solid var(--color-light1);
+
 }
 
-.blogs .box-container .box:hover .image img {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.inventory .box-container .box:hover .image img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.blogs .box-container .box .image {
-  height: 25rem;
+.inventory .box-container .box .image {
+  height: 55rem;
   overflow: hidden;
   width: 100%;
 }
 
-.blogs .box-container .box .image img {
+.inventory .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.blogs .box-container .box .content {
+.inventory .box-container .box .content {
   padding: 2rem;
 }
 
-.blogs .box-container .box .content .link {
+.inventory .box-container .box .content .link {
   font-size: 2rem;
   color: var(--color-light1);
 }
 
-.blogs .box-container .box .content .link:hover {
+.inventory .box-container .box .content .link:hover {
   color: var(--color-red);
 }
 
-.blogs .box-container .box .content p {
+.inventory .box-container .box .content p {
   padding: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   color: var(--color-light2);
   line-height: 2;
 }
 
-.blogs .box-container .box .content .icon {
-  padding-top: 1rem;
+.inventory .box-container .box .content .icon {
+  padding-top: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -663,16 +665,16 @@ li {
           justify-content: space-between;
 }
 
-.blogs .box-container .box .content .icon a {
+.inventory .box-container .box .content .icon a {
   font-size: 1.4rem;
   color: var(--color-light1);
 }
 
-.blogs .box-container .box .content .icon a:hover {
+.inventory .box-container .box .content .icon a:hover {
   color: var(--color-red);
 }
 
-.blogs .box-container .box .content .icon a i {
+.inventory .box-container .box .content .icon a i {
   padding-right: .5rem;
   color: var(--color-red);
 }
