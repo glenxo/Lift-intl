@@ -202,7 +202,7 @@ li {
 
 .home {
   margin: 0 auto;
-  margin-top: 9rem;
+  margin-top: 5rem;
   width: 90%;
   border-radius: 1rem;
   /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
@@ -231,12 +231,12 @@ li {
   font-weight: bolder;
   color: #a18e5e93;
   -webkit-text-stroke: 0.1rem var(--color-light1);
-  font-size: 4vw;
+  font-size: 10vw;
   display: block;
 }
 
 .home .content h3 {
-  font-size: 6vw;
+  font-size: 4vw;
   color: var(--color-light1);
   -webkit-text-stroke: 0.1rem var(--color-light2);
 
@@ -827,7 +827,7 @@ li {
   }
 
   .home {
-    margin-top: 10rem;
+    margin-top: 0rem;
   }
 
 
@@ -842,10 +842,10 @@ li {
 
 
   .home .content span {
-    font-size: 8vw;
+    font-size: 18vw;
   }
   .home .content h3 {
-    font-size: 9vw;
+    font-size: 8vw;
   }
 }
 

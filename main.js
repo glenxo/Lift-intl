@@ -1,11 +1,3 @@
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".navMenu");
-
-hamburger.addEventListener("click", () => {
-  hamburger.classList.toggle("active");
-  navMenu.classList.toggle("active");
-})
-
 (function(){
 
   var parallax = document.querySelectorAll(".banner"),
@@ -24,6 +16,13 @@ hamburger.addEventListener("click", () => {
 
 })();
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".navMenu");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+})
 
 menu.onclick = () =>{
   searchIcon.classList.remove('fa-times');
