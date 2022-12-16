@@ -830,10 +830,16 @@ li {
     margin-top: 10rem;
   }
 
-  #myVideo {
-    min-width: 50%; 
-    min-height: 50%;
+
+  #Video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+      z-index: -1;
   }
+
 
   .home .content span {
     font-size: 8vw;
@@ -874,7 +880,7 @@ li {
 
     .nav-item {
       position: fixed;
-      left: -100%;
+      left: -120%;
       top: 70px;
       gap: 0;
       flex-direction: column;
