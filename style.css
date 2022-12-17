@@ -933,27 +933,7 @@ li {
             box-shadow: 0 0 0 100vw #408574;
   }
 }
-
-@media (max-width: 20px) { 
-  .swiper .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
   
-  }
-}
-
-@media (max-width: 30px) { 
-  .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
-  
-  }
-}
-
 
 @media (max-width: 991px) {
   html {
@@ -964,9 +944,7 @@ li {
   }
 } 
 
-@media (max-width: 70px) {
-  
-}
+
 
 @media (max-width: 450px) {
   html {
@@ -974,8 +952,5 @@ li {
   }
   .banner .content h3 {
     font-size: 3rem;
-  }
-  .products .slide img {
-    height: 15rem;
   }
 }

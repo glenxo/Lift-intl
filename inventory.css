@@ -720,25 +720,6 @@ li {
   }
 }
 
-@media (max-width: 20px) { 
-  .swiper .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
-  
-  }
-}
-
-@media (max-width: 30px) { 
-  .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
-  
-  }
-}
 
 
 @media (max-width: 991px) {
@@ -750,18 +731,10 @@ li {
   }
 } 
 
-@media (max-width: 70px) {
-  
-}
 
 @media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
+
   .banner .content h3 {
     font-size: 3rem;
-  }
-  .products .slide img {
-    height: 15rem;
   }
 }
