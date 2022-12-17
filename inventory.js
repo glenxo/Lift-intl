@@ -1,3 +1,23 @@
+let my_element = document.createElement('h1');
+let my_span = document.createElement('span');
+let my_div = document.createElement('div');
+let message;
+message = 'Pagina en mantenimiento no publica';
+let button;
+let box;
+
+
+alert(message);
+
+my_element.appendChild(my_span);
+
+my_element.appendChild(my_div);
+
+my_element.classList.add('custom_class');
+
+document.body.appendChild(my_element);  
+
+
 let menu = document.querySelector('#menu-btn');
 let header = document.querySelector('.header');
 
