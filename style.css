@@ -4,7 +4,6 @@
 #595d2b
 #1d2a10
 #222
--@-@-@-
 #f9e4ca
 #96450d
 #b83d02
@@ -228,6 +227,7 @@ li {
 }
 
 .home .content span {
+  margin-top: -85px;
   font-weight: bolder;
   color: #a18e5e93;
   -webkit-text-stroke: 0.1rem var(--color-light1);
