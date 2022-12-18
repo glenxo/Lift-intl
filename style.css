@@ -558,8 +558,8 @@ margin-top: 1rem;
 
 
 
-/*BANNER SECTION ENDS*/
-.banner {
+/*CONTACT SECTION ENDS*/
+.contact {
   background-image: url(assets/test-------3f7.jpg);
   /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(assets/bg1.jpg) no-repeat;
   background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(assets/bg1.jpg) no-repeat;*/
@@ -570,25 +570,25 @@ margin-top: 1rem;
   text-align: center;
 }
 
-.banner .content span {
+.contact .content span {
   font-size: 2rem;
   color: var(--color-red);
 }
 
-.banner .content h3 {
+.contact .content h3 {
   font-size: 4rem;
   color: #fff;
   margin-top: 1rem;
 }
 
-.banner .content p {
+.contact .content p {
   max-width: 60rem;
   margin: 1rem auto;
   font-size: 1.4rem;
   color: #aaa;
   line-height: 2;
 }
-/*BANNER SECTION ENDS*/
+/*CONTACT SECTION ENDS*/
 
 
 /*FOOTER SECTION ENDS*/
