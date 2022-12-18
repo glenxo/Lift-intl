@@ -121,6 +121,7 @@ list-style: none;
   .branding img {
   padding: 2rem;
   position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transition: transform 0.5s ease-in-out;
