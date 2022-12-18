@@ -138,7 +138,7 @@ li {
   }
   
   .heading span {
-    color: var(--color-medium);
+    color: var(--color-light);
     font-size: 2rem;
   }
   
@@ -157,7 +157,7 @@ li {
   left: -31rem;
   height: 100%;
   width: 30rem;
-  background: #f5b350;
+  background: var(--color-dark);
   padding: 2rem;
   z-index: 1000;
 }
@@ -168,7 +168,7 @@ li {
 
 .header .logo {
   font-size: 4.3rem;
-  color: #3ea399;
+  color: var(--color-light2);
   font-weight: 1000;
 }
 
@@ -180,7 +180,7 @@ li {
   display: block;
   margin: 2rem 0;
   font-size: 2rem;
-  color: #487772;
+  color: var(--color-light1);
 }
 
 .header .navbar a:hover {
@@ -198,20 +198,20 @@ li {
   border-radius: 8%;
   line-height: 5rem;
   font-size: 2rem;
-  color: #5e9c96de;
-  background: rgb(255, 156, 8);
+  color: var(--color-dark);
+  background: var(--color-light1);
   margin: 0 .3rem;
 }
 
 .header .share a:hover {
-  background: rgb(60, 155, 131);
-  color: rgb(241, 154, 71);
+  background: var(--color-light2);
+  color: var(--color-light);
 }
 
 .header .credit {
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+  color: var(--color-light);
   margin-top: 3rem;
   line-height: 1.5;
 }
@@ -286,8 +286,8 @@ li {
   position: fixed;
   top: 2rem;
   left: 2rem;
-  background: #4ac2b6;
-  color: rgba(255, 224, 189, 0.705);
+  background: var(--color-dark);
+  color: #ffe0bdb4;
   height: 5rem;
   width: 5rem;
   line-height: 5rem;
@@ -715,8 +715,8 @@ li {
     padding-left: 0;
   }
   header.active {
-    -webkit-box-shadow: 0 0 0 100vw #000000cc;
-            box-shadow: 0 0 0 100vw #408574;
+    -webkit-box-shadow: 0 0 0 100vw var(--color-dark);
+            box-shadow: 0 0 0 100vw var(--color-light1);
   }
 }
 
