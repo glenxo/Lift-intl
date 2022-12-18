@@ -1,53 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazonian Natural</title>
+<head>   
+    <title>Lift-Intl.com Demo Website</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="inventory.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="main.js" defer></script>
 
 </head>
 <body>
-
-<!-- header section starts-->
+    
+    
+<!-- header section starts  -->
 <div class="branding">
     <a href="http://127.0.0.1:5501/index.html" class="nav-brand"><img src="assets/logo.png" alt=""></a>
 </div>
 
 
-    <div id="menu-btn" class="fas fa-bars"></div>
 
-        <header class="header">
-
-    <img class="card-image" src="media/logo1.png" alt="">
-    <nav class="navbar">
-        <a href="#inventory">Inventory</a>
-        <a href="#affiliates">Affiliates</a>
-        <a href="#destination">Destination</a>
-        <a href="#book-form">Boking</a>
-        <a href="#banner">Travel Website</a>
-        <a href="#footer">Contact Us</a>
-        <a href="#contact">Blog</a>
-    </nav>
-
-    <div class="share">
-        <a href="https://www.facebook.com/amazoniannatural" class="fab fa-facebook-f"></a>
-        <a href="https://www.instagram.com/amazonian_natural/?hl=en" class="fab fa-instagram"></a>
-    </div>
-
-
-</header>
-
-<!-- header section ends-->
-
+<!-- header section ends -->
 
 <!-- video section starts -->
 
@@ -74,6 +55,7 @@
 </section>
 
 <!-- home section ends -->
+
 
 <!-- inventory section starts  -->
 
@@ -261,10 +243,9 @@
 
 <!-- inventory section ends -->
 
+<!-- services section starts  -->
 
-<!-- affiliates section starts  -->
-
-<section class="affiliates" id="affiliates">
+<section class="services" id="services">
 
     <div class="heading">
         <span>countless experiences</span>
@@ -313,7 +294,7 @@
 
 </section>
 
-<!-- affiliates section ends -->
+<!-- services section ends -->
 
 
 <!-- destination section starts  -->
@@ -431,6 +412,7 @@
 </section>
 <!-- destination section ends  -->
 
+    
 <!-- booking form section starts  -->
 
 <section class="book-form" id="book-form">
@@ -523,8 +505,18 @@
 <!-- footer section ends -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script src="inventory.js"></script>
+<script src="main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
 
 </body>
 </html>

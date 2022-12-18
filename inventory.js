@@ -18,23 +18,6 @@ my_element.classList.add('custom_class');
 document.body.appendChild(my_element);  
 
 
-let menu = document.querySelector('#menu-btn');
-let header = document.querySelector('.header');
-
-menu.onclick = () =>{
-  menu.classList.toggle('fa-times');
-  header.classList.toggle('active');
-  document.body.classList.toggle('active');
-};
-
-window.onscroll = () =>{
-  if(window.innerWidth < 1200){
-    menu.classList.remove('fa-times');
-    header.classList.remove('active');
-    document.body.classList.remove('active');
-  };
-};
-
 (function(){
 
   var parallax = document.querySelectorAll(".banner"),
@@ -52,3 +35,23 @@ window.onscroll = () =>{
   };
 
 })();
+
+
+menu.onclick = () =>{
+  searchIcon.classList.remove('fa-times');
+  searchForm.classList.remove('active');
+}
+
+let searchIcon = document.querySelector('#search-icon');
+let searchForm = document.querySelector('.search-form');
+
+searchIcon.onclick = () =>{
+  searchIcon.classList.toggle('fa-times');
+  searchForm.classList.toggle('active');
+}
+
+window.onscroll = () =>{
+  searchIcon.classList.remove('fa-times');
+  searchForm.classList.remove('active');
+}
+
