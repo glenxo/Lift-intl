@@ -272,7 +272,7 @@ img {
 
 .swiper {
   width: 1200px;
-  height: 800px;
+  height: 820px;
 
 }
 
@@ -295,14 +295,15 @@ img {
 }
 
 .reviews .slide img {
-  height: 50rem;
-  width: 50rem;
-  border-radius: 50%;
+  height: 100rem;
+  width: 100rem;
+  border-radius: 2%;
   margin: 1rem 0;
 }
 
 .reviews .slide h3 {
-  font-size: 1.7rem;
+  font-size: 3rem;
+  margin-top: 1%;
   color: #408574;
   text-transform: capitalize;
 }
@@ -360,20 +361,31 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 
 @media (max-width: 20px) { 
   .swiper .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
+    max-width: 30px;
+    max-height: 150px;
+    width: 30px;
+    height: 15px;
+    
   
   }
 }
 
+.swiper {
+    width: 350px;
+    height: 250px;
+  
+  }
+
 @media (max-width: 30px) { 
   .swiper-slide-active {
-    max-width: 60px;
-    max-height: 30px;
-    width: 60px;
-    height: 30px;
+    max-width: 30px;
+    max-height: 150px;
+    width: 30px;
+    height: 15px;
+
+    
+      
+      
   
   }
 }
@@ -389,7 +401,7 @@ div.swiper-pagination.swiper-pagination-bullets.swiper-pagination-vertical {
 } 
 
 @media (max-width: 70px) {
-  
+
 }
 
 @media (max-width: 450px) {
