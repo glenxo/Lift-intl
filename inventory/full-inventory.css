@@ -241,7 +241,7 @@ img {
 }
 
 .swiper {
-  width: 1600px;
+  width: 1200px;
   height: 900px;
 
 }
@@ -265,8 +265,8 @@ img {
 }
 
 .reviews .slide img {
-  height: 100rem;
-  width: 900rem;
+  height: 700px;
+  width: 1200px;
   border-radius: 2%;
   margin: 1rem 0;
 }
