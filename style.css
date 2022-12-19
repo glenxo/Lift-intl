@@ -14,11 +14,12 @@
 
 :root{
   --color-dark: #1c0e01;
+  --color-dark2: #1c0e01e0;
   --color-medium: rgb(32, 32, 32); /* 2D3954 */
   --color-light: #f9e4ca;
   --color-light1: #bba58a;
   --color-light2: #cd8a39;
-  --color-light3: #cd8a3952;
+  --color-light3: #cd8a39af;
   --color-gray:#636500;
   --color-red:#b83d02;
 
@@ -61,12 +62,18 @@ html::-webkit-scrollbar-thumb {
 
 body {
   /*background-image: linear-gradient(to right, #584023d2 , rgba(218, 166, 87, 0.466) , #583b2cc5);  */
-  background: url(assets/logo3.png) right bottom no-repeat, url(assets/dark.jpg) left top repeat;
+  background: url(assets/logo3.png) right bottom no-repeat,  
+              url(assets/dark.jpg) left top repeat;
   background-position: center;  
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto;
   min-height:400px;   
+}
+
+
+body .fade {
+  opacity: 0.7;
 }
 
 body.active {
@@ -159,7 +166,7 @@ top: 0;
 left: -31rem;
 height: 100%;
 width: 30rem;
-background: var(--color-dark);
+background: var(--color-dark2);
 padding: 2rem;
 z-index: 1000;
 }
@@ -283,7 +290,10 @@ line-height: 1.5;
   letter-spacing: 20px;
   color: var(--color-light1);
   -webkit-text-stroke: 0.1rem var(--color-light2);
+}
 
+.fade {
+  opacity: 0.3;
 }
 
 /*HOME SECTION ENDS*/
@@ -730,7 +740,7 @@ body.active {
 }
 header.active {
   -webkit-box-shadow: 0 0 0 100vw var(--color-dark);
-          box-shadow: 0 0 0 100vw var(--color-light1);
+          box-shadow: 0 0 0 100vw var(--color-light3);
 }
 }
 
