@@ -97,6 +97,27 @@ img {
 
 }
 
+.btn {
+    margin-top: 3rem;
+    display: inline-block;
+    padding: 0.7rem 13rem;
+    font-size: 1.7rem;
+    color: var(--color-light);
+    border: var(--color-light1);
+    border-radius: 5rem;
+    cursor: pointer;
+    background: var(--color-light3);
+    }
+  
+    .btn:hover {
+    background: var(--color-light2);
+    color: var(--color-dark);
+    border: var(--color-red);
+    border-radius: 5rem;
+  
+  
+  }
+
 .branding img {
     padding: 2rem;
     position: absolute;
@@ -112,6 +133,8 @@ img {
 .home {
     margin: 0 auto;
     margin-top: 5rem;
+    margin-bottom: 100px;
+
     width: 90%;
     border-radius: 1rem;
     /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url() no-repeat;
@@ -236,8 +259,8 @@ img {
 .banner .image img {
   border-radius: 2%;
   display: flex;;
-  width: 750px;
-  height: 530px;
+  width: 550px;
+  height: 330px;
 }
 
 .swiper {
