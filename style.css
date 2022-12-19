@@ -18,6 +18,7 @@
   --color-light: #f9e4ca;
   --color-light1: #bba58a;
   --color-light2: #cd8a39;
+  --color-light3: #cd8a3952;
   --color-gray:#636500;
   --color-red:#b83d02;
 
@@ -100,18 +101,18 @@ list-style: none;
   .btn {
   margin-top: 1rem;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 0.7rem 13rem;
   font-size: 1.7rem;
-  color: var(--color-red);
+  color: var(--color-light);
   border: var(--color-light1);
   border-radius: 5rem;
   cursor: pointer;
-  background: var(--color-light);
+  background: var(--color-light3);
   }
 
   .btn:hover {
   background: var(--color-light2);
-  color: var(--color-light3);
+  color: var(--color-dark);
   border: var(--color-red);
   border-radius: 5rem;
 
@@ -262,14 +263,14 @@ line-height: 1.5;
 
 .home .content span {
   margin-top: -85px;
-  text-shadow:  0 0 5px #fffefd44, 
-  0 0 10px #eee5d946, 
-  0 0 15px #f5e3cd3d, 
-  0 0 20px #f0d8bc57, 
-  0 0 30px #eecba14f, 
-  0 0 40px #ebb77750, 
-  0 0 50px #d8984a48, 
-  0 0 75px #cd8a3938;
+  text-shadow:  0 0 5px #fffefd1e, 
+  0 0 10px #eee5d931, 
+  0 0 15px #f5e3cd27, 
+  0 0 20px #f0d8bc25, 
+  0 0 30px #eecba123, 
+  0 0 40px #ebb7772f, 
+  0 0 50px #d8984a28, 
+  0 0 75px #cd8a392a;
   font-weight: bolder;
   color: #a18e5e93;
   -webkit-text-stroke: 0.1rem var(--color-light1);
