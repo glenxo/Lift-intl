@@ -297,13 +297,14 @@ img {
 }
 
 div.swiper-button-prev::after {
-  color: #20bdad;
+  color: #20bdad00;
   border-color: #20bdad;
 }
 
 div.swiper-button-next::after {
-  color: #20bdad;
-  border-color: #20bdad;
+    color: #20bdad00;
+    border-color: #20bdad;
+
 }
 
 
