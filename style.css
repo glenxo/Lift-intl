@@ -281,7 +281,7 @@ line-height: 1.5;
   font-weight: bolder;
   color: #a18e5e93;
   -webkit-text-stroke: 0.1rem var(--color-light1);
-  font-size: 16vw;
+  font-size: 12vw;
   display: block;
 }
 
@@ -333,7 +333,8 @@ left: 24rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+      grid-template-columns: repeat(auto-fit, 
+                      minmax(32rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -773,12 +774,12 @@ color: #ff0028;
     margin-top: 8rem;
   }
   .home .content span {
-    font-size: 18vw;
+    font-size: 16vw;
   }
   .home .content h3 {
     font-size: 2vw;
   }
-}
+  
 
 @media (max-width: 450px) {
   html {
