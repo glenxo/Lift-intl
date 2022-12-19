@@ -729,6 +729,56 @@ color: #ff0028;
 
 
 
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 1.5rem 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .navbar  {
+    margin-top: -8rem;
+    font-size: 2rem;
+    display: block;
+  }
+
+  img .fade {
+    opacity: 0.7%;
+    margin-top: 2%;
+  }
+
+  .home {
+    margin-top: 8rem;
+  }
+  .home .content span {
+    font-size: 20vw;
+  }
+  .home .content h3 {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .about .content h3 {
+    font-size: 3.5rem;
+  }
+  .banner .content h3 {
+    font-size: 2.7rem;
+  }
+}
 
 
 
