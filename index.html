@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en">  
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lift-Intl.com Demo Main</title>
+<head>   
+    <title>Lift-Intl.com Demo Website</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inventory.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- custom js file link  -->
+    <script src="main.js" defer></script>
 
 </head>
 <body>
-
+    
+    
 <!-- header section starts-->
 <div class="branding">
     <a href="http://127.0.0.1:5501/index.html" class="nav-brand"><img src="assets/logo.png" alt="" class="fade"></a>
@@ -49,7 +53,6 @@
 
 <!-- header section ends-->
 
-
 <!-- video section starts -->
 
 <video autoplay muted loop id="Video">
@@ -76,12 +79,14 @@
 
 <!-- home section ends -->
 
+
 <!-- inventory section starts  -->
 
 <section class="inventory" id="inventory">
 
     <div class="heading">
         <h1>Lift-Intl Latest Inventory</h1>
+        <a href="https://glenxo.github.io/Lift-Intl-travel-Landing-Page/">Lift-Intl.com/travel</a>        
 
     </div>
     
@@ -89,15 +94,13 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="150">
             <div class="image">
-                <a href="https://glenxo.github.io/lift-intl-2/" class="nav-brand"><img src="assets/Ciara Caponi Acquire Ft eXp Panamá/Land Deal Portfolio 80 a 120 has/Altos de Pacora/Mario Mendez 52.5 has Altos de Pacora/Fotos/IMG-20221026-WA0079.jpg" alt="" class="fade"></a>
-
-                
+                <img src="https://d12bf6kmgd5ome.cloudfront.net/2018/04/panama-city-panama-real-estate-update-940x627.jpg" alt="">
             </div>
             <div class="content">
                 <a href="#" class="link">$235.189 , (link)Luxurious City Garden</a>
                 <p>Chame, Distrito de Capira, Panama- ar aprox 45-1hr from the city</p>
                 <div class="icon">
-                    <a href="https://glenxo.github.io/lift-intl-2/"><i class="fas fa-clock"></i> check listing here</a>
+                    <a href="http://127.0.0.1:5501/list1.html"><i class="fas fa-clock"></i> check listing here</a>
                     <a href="http://127.0.0.1:5501/list1.html"><i class="fas fa-user"></i> by admin</a>
                 </div>
             </div>
@@ -105,7 +108,7 @@
 
         <div class="box" data-aos="fade-up" data-aos-delay="300">
             <div class="image">
-                <img src="assets/Ciara Caponi Acquire Ft eXp Panamá/Land Deal Portfolio 80 a 120 has/Altos de Pacora/Mario Mendez 52.5 has Altos de Pacora/Fotos/IMG-20221026-WA0076.jpg" alt="">
+                <img src="https://mediavault.point2.com/p2h/listing/ed44/2031/233b/ad8c9afae7d5ed8cfa4e/wm_full.jpg" alt="">
             </div>
             <div class="content">
                 <a href="#" class="link">$655.000 , Luxurious City Garden</a>
@@ -263,7 +266,6 @@
 
 <!-- inventory section ends -->
 
-
 <!-- affiliates section starts  -->
 
 <section class="affiliates" id="affiliates">
@@ -316,6 +318,7 @@
 </section>
 
 <!-- affiliates section ends -->
+
 
 
 <!-- destination section starts  -->
@@ -433,6 +436,7 @@
 </section>
 <!-- destination section ends  -->
 
+    
 <!-- booking form section starts  -->
 
 <section class="book-form" id="book-form">
@@ -474,7 +478,7 @@
 
 <!-- footer section starts  -->
 
-<section class="footer" id="footer">
+<section class="footer">
 
     <div class="box-container">
 
@@ -525,8 +529,18 @@
 <!-- footer section ends -->
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+    AOS.init({
+        duration: 800,
+        offset:150,
+    });
+
+</script>
 
 </body>
 </html>
