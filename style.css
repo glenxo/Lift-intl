@@ -236,6 +236,7 @@ line-height: 1.5;
   min-width: 100%; 
   min-height: 100%;
     z-index: -1;
+      filter: sepia(15%);
 }
 /*VIDEO SECTION ENDS*/
 
