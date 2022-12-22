@@ -231,12 +231,13 @@ line-height: 1.5;
 /*VIDEO SECTION STARTS*/
 #Video {
   position: absolute;
+  padding: 0;
   right: 0;
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
     z-index: -1;
-      filter: sepia(15%);
+      filter: sepia(25%);
 }
 /*VIDEO SECTION ENDS*/
 
@@ -786,8 +787,8 @@ color: var(--color-red);
   position: absolute;
   right: 0;
   bottom: 0;
-  min-width: 100%; 
-  max-height: 100%;
+  max-height: 108%;
+  min-width: 100%;
     z-index: -1;
 }
 
