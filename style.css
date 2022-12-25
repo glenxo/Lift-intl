@@ -148,8 +148,13 @@ list-style: none;
   margin-bottom: 7rem;
 }
 
-.heading span {
+p {
   color: var(--color-light);
+  font-size: 2rem;
+}
+
+.heading span {
+  color: var(--color-light2);
   font-size: 2rem;
 }
 
@@ -270,6 +275,8 @@ line-height: 1.5;
 
 .home .content {
   text-align: center;
+  margin-bottom: 35%;
+
 }
 
 .home .content span {
@@ -343,8 +350,8 @@ left: 24rem;
 }
 
 .inventory h1 {
-  margin-top: 20%;
-  margin-bottom: 3%;
+  margin-top: 0%;
+  margin-bottom: 5%;
 }
 
 
@@ -760,15 +767,118 @@ color: var(--color-red);
 
 @media (max-width: 768px) {
   .inventory h1 {
-    margin-top: 0%;
+    margin-top: -3%;
     margin-bottom: 3%;
-    font-size: 6rem;
+    font-size: 5rem;
+  }  
+  
+  .inventory {
+    margin-bottom: 15%;
   }
 
   .inventory h3 {
   font-size: 2rem;
 
   }
+
+  .affiliates h1 {
+    margin-top: -4%;
+    margin-bottom: 3%;
+    font-size: 6rem;
+}
+
+.affiliates {
+  margin-bottom: 15%;
+}
+
+.affiliates h3 {
+font-size: 2rem;
+
+}
+
+.destination h1 {
+  margin-top: -3%;
+  margin-bottom: 3%;
+  font-size: 5rem;
+}   
+
+.destination {
+  margin-bottom: 15%;
+}
+
+.destination h3 {
+font-size: 2rem;
+
+}
+
+.book-form {
+  width: 80%;
+  margin: 1rem auto;
+  margin-top: 0rem;
+  background: var(--color-medium);
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+          box-shadow: 0 0.5rem 1rem rgba(17, 17, 17, 0.3);
+  padding: 3rem 2rem;
+  margin-bottom: 20%;
+
+}
+
+
+  .book-form h4 {
+    color: var(--color-red);
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+  
+  .book-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.0rem;
+  }
+  
+  .book-form form .inputBox {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25rem;
+          flex: 1 1 25rem;
+  }
+  
+  .book-form form .inputBox span {
+  font-size: 1.6rem;
+  color: var(--color-light2);
+  }
+  
+  .book-form form .inputBox input {
+  width: 100%;
+  padding: 1.4rem 1.6rem;
+  border-radius: 5rem;
+  border: 0.2rem solid var(--color-red);
+  font-size: 1.4rem;
+  color: var(--color-light);
+  text-transform: none;
+  background: none;
+  margin-top: 2rem;
+  }
+  
+  .book-form form .btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 15rem;
+            flex: 1 1 15rem;
+            margin-top: 15%;
+            margin-bottom: 25%;
+    }  
+    
+    .book-form form .btn {
+    padding: 5%;
+    font-size: 15px;
+      }
+
 
   #menu-btn {
     display: inline-block;
