@@ -343,6 +343,7 @@ left: 24rem;
   /*background-image: url(assets/london.jpg);*/
   display: -ms-grid;
   display: grid;
+  margin-bottom: 5%;
   -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, 
                       minmax(32rem, 1fr));
@@ -440,8 +441,8 @@ left: 24rem;
 }
 
 .affiliates h1 {
-  margin-top: 10%;
-  margin-bottom: 15%;
+  margin-top: 0%;
+  margin-bottom: 5%;
 }
 
 .affiliates .box-container .box {
