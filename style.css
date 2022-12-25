@@ -93,9 +93,7 @@ text-decoration: none;
 }
 
 
-section {
-padding: 3rem 9%;
-}
+
 
 /*header {
 background-color: var(--color-medium);
@@ -766,6 +764,9 @@ color: var(--color-red);
   }
 }
 
+
+
+
 @media (max-width: 768px) {
   .inventory {
     margin-bottom: 15%;
@@ -851,28 +852,18 @@ font-size: 2rem;
   }
   
   .book-form form .inputBox span {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--color-light2);
   }
   
-  .book-form form .inputBox input {
-  width: 100%;
-  padding: 1.4rem 1.6rem;
-  border-radius: 5rem;
-  border: 0.2rem solid var(--color-red);
-  font-size: 1.4rem;
-  color: var(--color-light);
-  text-transform: none;
-  background: none;
-  margin-top: 2rem;
-  }
+
   
   .book-form form .btn {
     -webkit-box-flex: 1;
         -ms-flex: 1 1 15rem;
             flex: 1 1 15rem;
             margin-top: 15%;
-            margin-bottom: 25%;
+            margin-bottom: 5%;
     }  
     
     .book-form form .btn {
@@ -887,22 +878,38 @@ font-size: 2rem;
       color: var(--color-light);
             }
 
-    .contact h3 {
-    margin-top: 0rem;
-    margin-bottom: 3%;
-    font-size: 5rem;
-}   
+
+            .contact {
+              background-image: url(assets/test-------3f7.jpg);
+              /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(assets/bg1.jpg) no-repeat;
+              background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(assets/bg1.jpg) no-repeat;*/
+              background-size: cover;
+              background-position: center;
+              padding: 4rem 3rem;
+              background-attachment: fixed;
+              text-align: center;
+              margin-top: 10rem;
+
+            }
             
-    .contact {
-    margin-top: 0%;
-    margin-bottom: 15%;
-}
+            .contact .content span {
+              font-size: 2rem;
+              color: var(--color-red);
+            }
             
-    .contact h3 {
-    font-size: 2rem;
-    margin-top: 0%;
-    
-}
+            .contact .content h3 {
+              font-size: 4rem;
+              color: var(--color-light);
+              margin-top: 1rem;
+            }
+            
+            .contact .content p {
+              max-width: 60rem;
+              margin: 1rem auto;
+              font-size: 1.4rem;
+              color: var(--color-light);
+              line-height: 2;
+            }
 
   #menu-btn {
     display: inline-block;
@@ -919,6 +926,8 @@ font-size: 2rem;
   
   
   }
+
+
 
   .navbar  {
     margin-top: -8rem;
