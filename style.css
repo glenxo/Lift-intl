@@ -875,9 +875,16 @@ font-size: 2rem;
     }  
     
     .book-form form .btn {
-    padding: 5%;
-    font-size: 15px;
-      }
+      padding: 3%;
+      font-size: 15px;
+      color: var(--color-light);
+
+        }    
+        
+    .book-form form .btn:hover {
+      background: var(--color-red);
+      color: var(--color-light);
+            }
 
 
   #menu-btn {
