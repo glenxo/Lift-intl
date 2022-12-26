@@ -475,7 +475,7 @@ left: 24rem;
 /*AFFILIATES SECTION ENDS*/
 
 /*DESTINATION SECTION ENDS*/
-.destination .box-container {
+.glamping .box-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(27rem, 1fr))[auto-fit];
@@ -483,46 +483,46 @@ left: 24rem;
   gap: 1.5rem;
 }
 
-.destination h1 {
+.glamping h1 {
   margin-top: 10%;
   margin-bottom: 15%;
 }
 
-.destination .box-container .box {
+.glamping .box-container .box {
   border-radius: 1rem;
   overflow: hidden;
   background: var(--color-medium);
 }
 
-.destination .box-container .box:hover img {
+.glamping .box-container .box:hover img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.destination .box-container .box .image {
+.glamping .box-container .box .image {
   height: 20rem;
   overflow: hidden;
   width: 100%;
 }
 
-.destination .box-container .box .image img {
+.glamping .box-container .box .image img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-.destination .box-container .box .content {
+.glamping .box-container .box .content {
   padding: 2rem;
   text-align: center;
 }
 
-.destination .box-container .box .content h3 {
+.glamping .box-container .box .content h3 {
   font-size: 2rem;
   color: var(--color-light);
 }
 
-.destination .box-container .box .content p {
+.glamping .box-container .box .content p {
   padding: 1rem 0;
   font-size: 1.4rem;
   color: var(--color-light);
@@ -531,16 +531,16 @@ left: 24rem;
 
 
 
-.destination .box-container .box .content a {
+.glamping .box-container .box .content a {
   font-size: 1.7rem;
   color: var(--color-red);
 }
 
-.destination .box-container .box .content a:hover i {
+.glamping .box-container .box .content a:hover i {
   padding-left: 1rem;
 }
 
-.destination .box-container .box .content a i {
+.glamping .box-container .box .content a i {
   padding-right: .5rem;
 }
 
@@ -797,17 +797,23 @@ font-size: 2rem;
 
 }
 
-.destination h1 {
+.glamping .box-container .box .image {
+  height: 40rem;
+  overflow: hidden;
+  width: 100%;
+}
+
+.glamping h1 {
   margin-top: -3%;
   margin-bottom: 3%;
   font-size: 5rem;
 }   
 
-.destination {
+.glamping {
   margin-bottom: 15%;
 }
 
-.destination h3 {
+.glamping h3 {
 font-size: 2rem;
 
 }
@@ -876,40 +882,34 @@ font-size: 2rem;
     .book-form form .btn:hover {
       background: var(--color-red);
       color: var(--color-light);
-            }
+}
 
 
-            .contact {
-              background-image: url(assets/test-------3f7.jpg);
-              /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgba(17, 17, 17, 0.7))), url(assets/bg1.jpg) no-repeat;
-              background: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(assets/bg1.jpg) no-repeat;*/
-              background-size: cover;
-              background-position: center;
-              padding: 4rem 3rem;
-              background-attachment: fixed;
-              text-align: center;
-              margin-top: 10rem;
+    .contact {
+      background-image: url(assets/test-------3f7.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 4rem 3rem;
+      background-attachment: fixed;
+      text-align: center;
+}
+    .contact .content span {
+      font-size: 2rem;
+      color: var(--color-red);
+}
+    .contact .content h3 {
+      font-size: 4rem;
+      color: var(--color-light);
+      margin-top: 1rem;
+}
 
-            }
-            
-            .contact .content span {
-              font-size: 2rem;
-              color: var(--color-red);
-            }
-            
-            .contact .content h3 {
-              font-size: 4rem;
-              color: var(--color-light);
-              margin-top: 1rem;
-            }
-            
-            .contact .content p {
-              max-width: 60rem;
-              margin: 1rem auto;
-              font-size: 1.4rem;
-              color: var(--color-light);
-              line-height: 2;
-            }
+    .contact .content p {
+      max-width: 60rem;
+      margin: 1rem auto;
+      font-size: 1.4rem;
+      color: var(--color-light);
+      line-height: 2;
+}
 
   #menu-btn {
     display: inline-block;
